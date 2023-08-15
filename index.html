@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        button {
+            padding: 0.5em 1em;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        a.button-link {
+            padding: 0.5em 1em;
+            background-color: #1b9e93;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Últimas Noticias</h1>
+    </header>
+    <div class="container">
+        <p>¡Bienvenido a nuestro sitio de noticias! Aquí encontrarás las últimas novedades.</p>
+        
+        <h2>Noticias a Nivel Mundial</h2>
+        <p>En esta sección encontrarás noticias relevantes de todo el mundo.</p>
+        
+        <a href="https://www.elsalvador.com/" class="button-link">noticias a nivel nacional</a>
+        <a href="https://www.bbc.com/mundo" class="button-link">noticias a nivel mundial</a>
+    </div>
+    
+    <script>
+        document.getElementById("boton1").addEventListener("click", function() {
+            window.location.href = "pagina1.html";
+        });
+        
+        document.getElementById("boton2").addEventListener("click", function() {
+            window.location.href = "pagina2.html";
+        });
+    </script>
+</body>
+</html>
